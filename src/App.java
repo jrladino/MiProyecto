@@ -1,6 +1,6 @@
 import Animales.Cat;
 import Animales.Dog;
-import Condicionales.CondicionalSi;
+import Condicionales.*;
 import Operaciones.Division;
 import Operaciones.Multiplicacion;
 import Operaciones.Resta;
@@ -53,6 +53,17 @@ public class App {
 
         CondicionalSi condicionalSi = new CondicionalSi();
         System.out.println(condicionalSi.condicionalSi(5)); // Output: El número es positivo
+
+        CicloFor condicionalFor = new CicloFor();
+        condicionalFor.printNumbers(5); // Output: 1, 2, 3, 4, 5
+
+        //ejemplo de ciclo while
+        CiclosWhile ciclosWhile = new CiclosWhile();
+        ciclosWhile.printNumbers(5); // Output: 1, 2, 3, 4, 5
+        //ejemplo de ciclo do while
+        ciclosWhile.printNumbers(10, 5); // Output: 5, 6, 7, 8, 9, 10
+        
+
     }
 
   
