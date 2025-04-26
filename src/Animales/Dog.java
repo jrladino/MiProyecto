@@ -1,9 +1,12 @@
 package Animales;
 
 public class Dog extends Animal {
-    public Dog(String name, int age) {
+    public Dog(String name, String raza, int age, int size) {
+
         this.name = name;
+        this.raza = raza;
         this.age = age;
+        this.size = size;
     }
 
     @Override

@@ -10,7 +10,8 @@ import Polimorfismo.Polimorfismo;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        Dog dog = new Dog("Buddy", 5);
+        Dog dog = new Dog("Buddy","Pitbull", 5, 30);
+        System.out.println("Dog Info: ");
         System.out.println(dog.getInfo());  
         System.out.println("Sound: "+dog.makeSound());
 
