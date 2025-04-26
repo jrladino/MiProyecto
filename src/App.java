@@ -1,10 +1,7 @@
 import Animales.Cat;
 import Animales.Dog;
 import Condicionales.*;
-import Operaciones.Division;
-import Operaciones.Multiplicacion;
-import Operaciones.Resta;
-import Operaciones.Suma;
+import Operaciones.*;
 import Polimorfismo.Polimorfismo;
 
 public class App {
