@@ -63,6 +63,13 @@ public class App {
         //ejemplo de ciclo do while
         ciclosWhile.printNumbers(10, 5); // Output: 5, 6, 7, 8, 9, 10
         
+        //ejemplo de ciclo for each
+        CicloForEach cicloForEach = new CicloForEach();
+        String[] names = {"Alice", "Bob", "Charlie"};
+        cicloForEach.printNames(names); // Output: Alice, Bob, Charlie
+        //ejemplo de ciclo for each con numeros 
+        int[] numbersArray = {1, 2, 3, 4, 5};
+        cicloForEach.printNumbers(numbersArray); // Output: 1, 2, 3, 4, 5
 
     }
 
