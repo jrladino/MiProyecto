@@ -1,5 +1,6 @@
 import Animales.Cat;
 import Animales.Dog;
+import Condicionales.CondicionalSi;
 import Operaciones.Division;
 import Operaciones.Multiplicacion;
 import Operaciones.Resta;
@@ -49,6 +50,9 @@ public class App {
      
         System.out.println(number + number2 + text + text2); // Output: 300HolaMundo
         System.out.println(text + text2 + number + number2); // Output: HolaMundo100200
+
+        CondicionalSi condicionalSi = new CondicionalSi();
+        System.out.println(condicionalSi.condicionalSi(5)); // Output: El número es positivo
     }
 
   
