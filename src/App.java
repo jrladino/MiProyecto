@@ -37,6 +37,20 @@ public class App {
         polimorfismo.sumar(5, 3); // Output: Suma de enteros: 8
         polimorfismo.sumar(5.5, 3.2); // Output: Suma de decimales: 8.7
         polimorfismo.sumar(5, 3, 2); // Output: Suma de tres enteros: 10
+
+        System.out.println("Usando la función de suma:");
+        System.out.println("Resultado: " + suma.operar(10, 20)); // Output: 30
+
+
+        String text = "Hola";
+        String text2 = "Mundo";
+        int number = 100;
+        int number2 = 200;    
+     
+        System.out.println(number + number2 + text + text2); // Output: 300HolaMundo
+        System.out.println(text + text2 + number + number2); // Output: HolaMundo100200
     }
-        
+
+  
+
 }
