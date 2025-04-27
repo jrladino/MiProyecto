@@ -3,6 +3,7 @@ import Animales.Dog;
 import Condicionales.*;
 import Operaciones.*;
 import Polimorfismo.Polimorfismo;
+import StaticClass.ClaseEstatica;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -68,6 +69,18 @@ public class App {
         //ejemplo de ciclo for each con numeros 
         int[] numbersArray = {1, 2, 3, 4, 5};
         cicloForEach.printNumbers(numbersArray); // Output: 1, 2, 3, 4, 5
+
+
+        //ahora vamos a usar la clase estaticas
+        //crea un objeto de la clase estaticas
+        ClaseEstatica objeto = new ClaseEstatica(5, 10); // Llama al constructor con dos parámetros
+        //llama a los metodos estaticos
+        ClaseEstatica.metodoEstatico1(); // Llama al método estático 1
+        ClaseEstatica.metodoEstatico2("Juan"); // Llama al método estático 2
+        ClaseEstatica.metodoEstatico3(15, 20); // Llama al método estático 3
+        //llama a los metodos no estaticos
+        System.out.println("Resultado del método no estático 1x: " + objeto.metodoNoEstatico1()); // Llama al método no estático 1
+        System.out.println("Resultado del método no estático 2x: " + objeto.metodoNoEstatico2("Juan")); // Llama al método no estático 2
 
     }
 
