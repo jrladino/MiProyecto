@@ -4,8 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
+        {
+            "type": "java",
+            "name": "CalcularIntereses",
+            "request": "launch",
+            "mainClass": "CalcularIntereses",
+            "projectName": "MiProyecto_3a335b0f"
+        },
         {
             "type": "java",
             "name": "Current File",
