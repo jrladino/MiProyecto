@@ -1,6 +1,11 @@
 import Animales.Cat;
 import Animales.Dog;
 import Condicionales.*;
+import Herencias.HerenciaSimple;
+import Herencias.Kia;
+import Herencias.Mazda;
+import Herencias.Renault;
+import Herencias.Suzuki;
 import Operaciones.*;
 import Polimorfismo.Polimorfismo;
 import StaticClass.ClaseEstatica;
@@ -81,6 +86,68 @@ public class App {
         //llama a los metodos no estaticos
         System.out.println("Resultado del método no estático 1x: " + objeto.metodoNoEstatico1()); // Llama al método no estático 1
         System.out.println("Resultado del método no estático 2x: " + objeto.metodoNoEstatico2("Juan")); // Llama al método no estático 2
+
+        //usa la herencia simple
+        Mazda mazda = new Mazda("Mazda","3", "Rojo", 2020, "2.0L");
+        mazda.moverse(mazda.getNombre(),mazda.getModelo(),mazda.getMotor()); // Output: El Mazda 3 se está moviendo... con motor 2.0L.
+        mazda.detenerse(mazda.getNombre(),mazda.getModelo(),mazda.getMotor()); // Output: El Mazda 3 se ha detenido... con motor 2.0L.
+        System.out.println("Nombre: " + mazda.getNombre()); // Output: Nombre: Mazda
+        System.out.println("Modelo: " + mazda.getModelo()); // Output: Modelo: Mazda 3
+        System.out.println("Color: " + mazda.getColor()); // Output: Color: Rojo
+        System.out.println("Año: " + mazda.getAnio()); // Output: Año: 2020
+        System.out.println("Motor: " + mazda.getMotor()); // Output: Motor: 2.0L
+        System.out.println("Herencia Simple: " + mazda.run()); // Output: moviendo...
+        System.out.println("Herencia Simple: " + mazda.stop()); // Output: detenido...
+
+        //utliza la herencia de la clase Kia
+        Kia kia = new Kia("Kia","Rio", "Azul", 2021, "1.6L");
+        kia.moverse(kia.getNombre(), kia.getModelo(), kia.getMotor()); // Output: El Kia Rio se está moviendo... con motor 1.6L.
+        kia.detenerse(kia.getNombre(), kia.getModelo(), kia.getMotor()); // Output: El Kia Rio se ha detenido... con motor 1.6L.
+        System.out.println("Nombre: " + kia.getNombre()); // Output: Nombre: Kia
+        System.out.println("Modelo: " + kia.getModelo()); // Output: Modelo: Kia Rio
+        System.out.println("Color: " + kia.getColor()); // Output: Color: Azul
+        System.out.println("Año: " + kia.getAnio()); // Output: Año: 2021
+        System.out.println("Motor: " + kia.getMotor()); // Output: Motor: 1.6L
+        //herencia simple
+        System.out.println("Herencia Simple: " + kia.run()); // Output: moviendo...
+        System.out.println("Herencia Simple: " + kia.stop()); // Output: detenido...
+
+        Suzuki  suzuki = new Suzuki("Suzuki","Swift", "Verde", 2022, "1.2L");
+
+        suzuki.moverse(); // Output: El Suzuki Swift se está moviendo... con motor 1.2L.
+        suzuki.detenerse(); // Output: El Suzuki Swift se ha detenido... con motor 1.2L.
+
+        System.out.println("Nombre: " + suzuki.getNombre()); // Output: Nombre: Suzuki
+        System.out.println("Modelo: " + suzuki.getModelo()); // Output: Modelo: Suzuki Swift    
+        System.out.println("Color: " + suzuki.getColor()); // Output: Color: Verde
+        System.out.println("Año: " + suzuki.getAnio()); // Output: Año: 2022
+        System.out.println("Motor: " + suzuki.getMotor()); // Output: Motor: 1.2L
+
+        //herencia simple
+        System.out.println("Herencia Simple: " + suzuki.run()); // Output: moviendo...
+        System.out.println("Herencia Simple: " + suzuki.stop()); // Output: detenido...
+
+        //llama al metodo unico de la clase Suzuki
+        suzuki.modoSport(); // Output: El Suzuki Swift está en modo Sport.
+
+        //herencia de la clase Renault
+        Renault renault = new Renault("Renault","Cl", "Amarillo", 2023, "1.0L");
+        renault.moverse(); // Output: El Renault Cl se está moviendo... con motor 1.0L.
+        renault.detenerse(); // Output: El Renault Cl se ha detenido... con motor 1.0L.
+        System.out.println("Nombre: " + renault.getNombre()); // Output: Nombre: Renault
+
+        System.out.println("Modelo: " + renault.getModelo()); // Output: Modelo: Renault Cl
+        System.out.println("Color: " + renault.getColor()); // Output: Color: Amarillo
+        System.out.println("Año: " + renault.getAnio()); // Output: Año: 2023
+        System.out.println("Motor: " + renault.getMotor()); // Output: Motor: 1.0L
+
+        //herencia simple
+        System.out.println("Herencia Simple: " + renault.run()); // Output: moviendo...
+        System.out.println("Herencia Simple: " + renault.stop()); // Output: detenido...
+
+        //llama al metodo unico de la clase Renault
+        renault.modoEco(); // Output: El Renault Cl está en modo Eco.
+
 
     }
 
