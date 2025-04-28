@@ -36,7 +36,7 @@ public class App {
             System.out.println(e.getMessage()); // Output: No se puede dividir por cero
         }
 
-        // Polimorfismo
+        // Polimorfismo Sesion 6 --------------
         Polimorfismo polimorfismo = new Polimorfismo();
         polimorfismo.sumar(5, 3); // Output: Suma de enteros: 8
         polimorfismo.sumar(5.5, 3.2); // Output: Suma de decimales: 8.7
@@ -44,6 +44,7 @@ public class App {
 
         System.out.println("Usando la función de suma:");
         System.out.println("Resultado: " + suma.operar(10, 20)); // Output: 30
+        //--------fin sesion 6 polimorfismo
 
 
         String text = "Hola";
@@ -86,6 +87,7 @@ public class App {
         System.out.println("Resultado del método no estático 1x: " + objeto.metodoNoEstatico1()); // Llama al método no estático 1
         System.out.println("Resultado del método no estático 2x: " + objeto.metodoNoEstatico2("Juan")); // Llama al método no estático 2
 
+        //---Herencia sesion 5------------------
         //usa la herencia simple
         Mazda mazda = new Mazda("Mazda","3", "Rojo", 2020, "2.0L");
         mazda.moverse(mazda.getNombre(),mazda.getModelo(),mazda.getMotor()); // Output: El Mazda 3 se está moviendo... con motor 2.0L.
@@ -147,6 +149,7 @@ public class App {
         //llama al metodo unico de la clase Renault
         renault.modoEco(); // Output: El Renault Cl está en modo Eco.
 
+        //------- fin herencia sesion 5------------------
 
     }
 

@@ -1,6 +1,8 @@
 package Polimorfismo;
 
 public class Polimorfismo {
+    // Sobrecarga de métodos para sumar diferentes tipos de datos
+    // y diferentes cantidades de parámetros
     public void sumar(int a, int b) {
         System.out.println("Suma de enteros: " + (a + b));
     }
