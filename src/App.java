@@ -1,5 +1,4 @@
-import Animales.Cat;
-import Animales.Dog;
+import Animales.*;
 import Condicionales.*;
 import Herencias.*;
 import Operaciones.*;
