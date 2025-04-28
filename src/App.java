@@ -1,11 +1,7 @@
 import Animales.Cat;
 import Animales.Dog;
 import Condicionales.*;
-import Herencias.HerenciaSimple;
-import Herencias.Kia;
-import Herencias.Mazda;
-import Herencias.Renault;
-import Herencias.Suzuki;
+import Herencias.*;
 import Operaciones.*;
 import Polimorfismo.Polimorfismo;
 import StaticClass.ClaseEstatica;
