@@ -1,52 +1,32 @@
 package Herencias;
 
-public class Mazda extends HerenciaSimple {
-    private String nombre;
-    private String modelo;
-    private String color;
-    private int anio;
-    private String motor;
+public class Mazda extends Carro {
 
-    public Mazda(String nombre, String modelo, String color, int anio, String motor) {
-        this.nombre = nombre;
-        this.modelo = modelo;
-        this.color = color;
-        this.anio = anio;
-        this.motor = motor;
+    String nombre = "Mazda";
+
+    public void getNombre() {
+        System.out.println("El nombre del carro es: " + nombre);
+        System.out.println(super.nombre);
     }
 
-    public void moverse(String nombre, String modelo, String motor) {
-        nombre = this.nombre;
-        modelo = this.modelo;
-        motor = this.motor;
-        System.out.println("El "+ nombre + " "+ modelo + " se está " + run() + " con motor " + motor + ".");
+    public void run() {
+        System.out.println("El Mazda está transitando.");
+        super.run(); // Llama al método run() de la clase Carro
     }
 
-    public void detenerse(String nombre, String modelo, String motor) {
-        nombre = this.nombre;
-        modelo = this.modelo;
-        motor = this.motor;
-        System.out.println("El "+ nombre + " "+ modelo + " se ha " + stop() + " con motor " + motor + ".");
+    Mazda() {
+        super(); // Llama al constructor de la clase padre (Carro)
+        System.out.println("Llamando el constructor de la clase Mazda.");
     }
 
-    public String getNombre() {
-        return this.nombre;
-    }
-    
-    public String getModelo() {
-        return this.modelo;
-    }
+    public static void main(String[] args) {
+        //primer uso
+        Mazda mazda = new Mazda();
+        mazda.getNombre();
 
-    public String getColor() {
-        return this.color;
-    }
+        //segundo uso
+        mazda.run(); // Llama al método run() de la clase Mazda
 
-    public int getAnio() {
-        return this.anio;
-    }
-
-    public String getMotor() {
-        return this.motor;
     }
 
 }

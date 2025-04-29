@@ -85,7 +85,7 @@ public class App {
 
         //---Herencia sesion 5------------------
         //usa la herencia simple
-        Mazda mazda = new Mazda("Mazda","3", "Rojo", 2020, "2.0L");
+        Ford mazda = new Ford("Mazda","3", "Rojo", 2020, "2.0L");
         mazda.moverse(mazda.getNombre(),mazda.getModelo(),mazda.getMotor()); // Output: El Mazda 3 se está moviendo... con motor 2.0L.
         mazda.detenerse(mazda.getNombre(),mazda.getModelo(),mazda.getMotor()); // Output: El Mazda 3 se ha detenido... con motor 2.0L.
         System.out.println("Nombre: " + mazda.getNombre()); // Output: Nombre: Mazda

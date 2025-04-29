@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Mazda",
+            "request": "launch",
+            "mainClass": "Herencias.Mazda",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "CalcularIntereses",
             "request": "launch",
             "mainClass": "CalcularIntereses",
