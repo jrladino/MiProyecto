@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Triangulo",
+            "request": "launch",
+            "mainClass": "opps.Triangulo",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
+            "name": "Circulo",
+            "request": "launch",
+            "mainClass": "opps.Circulo",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
+            "name": "Rectangulo",
+            "request": "launch",
+            "mainClass": "opps.Rectangulo",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "Mazda",
             "request": "launch",
             "mainClass": "Herencias.Mazda",

@@ -15,7 +15,7 @@ public class Mazda extends Carro {
     }
 
     Mazda() {
-        super(); // Llama al constructor de la clase padre (Carro)
+        //super(); // Llama al constructor de la clase padre (Carro)
         System.out.println("Llamando el constructor de la clase Mazda.");
     }
 
