@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NuPrestamo",
+            "request": "launch",
+            "mainClass": "Encapsulamiento.NuPrestamo",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "ClaseDeMedicina",
             "request": "launch",
             "mainClass": "opps.ClaseDeMedicina",
