@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClaseDeMedicina",
+            "request": "launch",
+            "mainClass": "opps.ClaseDeMedicina",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
+            "name": "ClaseDeIngenieria",
+            "request": "launch",
+            "mainClass": "opps.ClaseDeIngenieria",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "Triangulo",
             "request": "launch",
             "mainClass": "opps.Triangulo",
