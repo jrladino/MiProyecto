@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arreglo",
+            "request": "launch",
+            "mainClass": "Arreglos.Arreglo",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "NuPrestamo",
             "request": "launch",
             "mainClass": "Encapsulamiento.NuPrestamo",
