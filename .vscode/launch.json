@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringMethods",
+            "request": "launch",
+            "mainClass": "StringBufferExample.StringMethods",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
+            "name": "StringBufferClass",
+            "request": "launch",
+            "mainClass": "StringBufferExample.StringBufferClass",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "StringOptions",
             "request": "launch",
             "mainClass": "ArreglosAndStringOptions.StringOptions",

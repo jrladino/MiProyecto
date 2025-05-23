@@ -40,7 +40,7 @@ public class ClaseDeMedicina implements Estudiante {
 
     @Override
     public void obtenerNombreInterface() {
-        // TODO Auto-generated method stub
+
         throw new UnsupportedOperationException("Unimplemented method 'obtenerNombreInterface'");
     }
 
