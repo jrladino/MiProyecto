@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Excepciones2",
+            "request": "launch",
+            "mainClass": "manejoExcepciones.Excepciones2",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
+            "name": "Excepciones",
+            "request": "launch",
+            "mainClass": "manejoExcepciones.Excepciones",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "StringMethods",
             "request": "launch",
             "mainClass": "StringBufferExample.StringMethods",
