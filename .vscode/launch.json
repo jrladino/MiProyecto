@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ColeccionesJava",
+            "request": "launch",
+            "mainClass": "colecciones.ColeccionesJava",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "Excepciones2",
             "request": "launch",
             "mainClass": "manejoExcepciones.Excepciones2",
