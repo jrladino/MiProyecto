@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReadPropierties",
+            "request": "launch",
+            "mainClass": "utilities.ReadPropierties",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
+            "name": "WritePropierties",
+            "request": "launch",
+            "mainClass": "utilities.WritePropierties",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "ColeccionesJava",
             "request": "launch",
             "mainClass": "colecciones.ColeccionesJava",
