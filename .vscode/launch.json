@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReadJsonData",
+            "request": "launch",
+            "mainClass": "utilities.ReadJsonData",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "WriteJson",
             "request": "launch",
             "mainClass": "utilities.WriteJson",

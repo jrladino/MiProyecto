@@ -8,6 +8,7 @@ import org.json.simple.JSONObject;
 
 public class WriteJson {
 
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         // Create a JSON object
         JSONObject jsonObject = new JSONObject();
