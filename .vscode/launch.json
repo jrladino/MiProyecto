@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WriteExcelFile",
+            "request": "launch",
+            "mainClass": "utilities.WriteExcelFile",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "ReadPropierties",
             "request": "launch",
             "mainClass": "utilities.ReadPropierties",
