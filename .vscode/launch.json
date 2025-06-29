@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WriteJson",
+            "request": "launch",
+            "mainClass": "utilities.WriteJson",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
+            "name": "ReadExcelFile",
+            "request": "launch",
+            "mainClass": "utilities.ReadExcelFile",
+            "projectName": "MiProyecto_3a335b0f"
+        },
+        {
+            "type": "java",
             "name": "WriteExcelFile",
             "request": "launch",
             "mainClass": "utilities.WriteExcelFile",

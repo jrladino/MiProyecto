@@ -45,3 +45,5 @@ target/
 # Archivos de configuración de entorno
 .env
 example.xlsx
+.vscode/launch.json
+output.json
