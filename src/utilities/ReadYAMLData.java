@@ -30,7 +30,20 @@ public class ReadYAMLData {
         // Extrae la lista de casos de prueba bajo la clave testdata
         @SuppressWarnings("unchecked")
         List<Map<String, Object>> testCases = (List<Map<String, Object>>) testdata.get("testdata");
+        System.out.println("Todos los casos de prueba:");
+        System.out.println(testCases);
 
+        // Toma el primer caso de prueba de la lista
+        Map<String, Object> firstTestCase = testCases.get(0);
+        System.out.println("Primer caso de prueba:");
+        System.out.println(firstTestCase.get("testName"));
+
+        // Extrae la lsta de datos del primer caso de prueba
+        @SuppressWarnings("unchecked")
+        List<Map<String, Object>> dataList = (List<Map<String, Object>>) firstTestCase.get("data");
+
+        System.out.println("Datos del primer caso de prueba:");
+        System.out.println(dataList);
         
     }
 
